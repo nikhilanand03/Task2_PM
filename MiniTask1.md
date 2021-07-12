@@ -13,4 +13,10 @@ The problem statement is to ensure that people who are hard of hearing can be he
 - Besides this, for it to be effective, the screen of the glasses should be made into LCD displays to glow in specific regions when a sound is heard from a particular direction.
 
 **Specific components:**
-(include solution to noise issue here)
+
+1. **MEMS microphone module**: 
+- While creating our prototype, we can use this module to try and allow for directional sensing of sound and create an output on an LED screen depending on the direction. This initial prototype could later be integrated into the product with an appropriate design.
+- We'll have to make sure we collect directional data appropriately so that it can detect which direction the appropriate frequencies are coming from and amplify those appropriately.
+
+2. **LCD display**:
+- An appropriate display will need to be used whether we are using the Google glasses smartglass model, or instead making the glasses themselves the screen. We can start off by lighting up the LCD in various places depending on the location of the sound.
